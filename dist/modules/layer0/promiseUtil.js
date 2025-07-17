@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.runInParallel=runInParallel;async function runInParallel(fn){try{await fn()}catch(err){console.error(err)}}

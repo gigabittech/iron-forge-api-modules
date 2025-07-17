@@ -1,0 +1,12 @@
+import { DateTime } from 'luxon';
+import Big from 'big.js';
+import { GraphQLScalarType } from 'graphql';
+import { encodedFileUtil } from '../layer1';
+export declare const timestampScalarType: GraphQLScalarType<DateTime<boolean>, string>;
+export declare const isoDateScalarType: GraphQLScalarType<string, string>;
+export declare const objectScalarType: GraphQLScalarType<any, string>;
+export declare const encodedFileInputScalarType: GraphQLScalarType<encodedFileUtil.EncodedFile, string>;
+export declare const encodedFileOutputScalarType: GraphQLScalarType<string, string>;
+export declare const currencyUsdType: GraphQLScalarType<Big.Big, string>;
+export declare const decimalType: GraphQLScalarType<Big.Big, string>;
+export declare const cursorType: GraphQLScalarType<string, string>;

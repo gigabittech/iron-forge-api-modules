@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.calcFullGenContextUtilConfig=calcFullGenContextUtilConfig;function calcFullGenContextUtilConfig(config){return{...config.genContextUtilConfig,environmentName:config.name,isProd:config.isProd}}
